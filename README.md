@@ -1,6 +1,6 @@
 # Drag & Trash · 一拖即删
 
-![Follow cursor demo](https://raw.githubusercontent.com/xandri19wang/drag-and-trash/main/demos/follow-cursor.gif)
+![Direction demo](https://raw.githubusercontent.com/xandri19wang/drag-and-trash/main/demos/direction-hero.gif)
 
 **Drag less. Trash faster.**
 
