@@ -38,6 +38,9 @@ Use the Windows Recycle Bin icon, a local PNG/JPG/BMP/ICO/GIF, or a user-selecte
 
 ## More / 其他功能
 
+- **Hover icon / 悬停图标:** Set an optional local PNG/JPG/BMP/ICO/GIF for hover. Leave blank to reuse the drag icon.
+- **Automatic mirroring / 位置自动翻转:** By default, a target to the cursor's left mirrors horizontally; while hovering, orientation stays stable.
+
 - **Start Menu search / 开始菜单搜索:** Recycle real files and folders dragged from Everything & Power Tools in the Start Menu (local v1.2.1 only).
 - **Batch recycling / 批量回收:** Drop several files together in one Shell operation.
 - **Ctrl+Z undo / 撤销:** Restore a supported recycle operation in File Explorer (within the active Shell session).
