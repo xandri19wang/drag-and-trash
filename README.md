@@ -31,16 +31,17 @@ Prefer the classic placement? Keep the original top-of-screen option.
 
 ### 04 · System or custom icon / 系统或自定义图标
 
-Use the Windows Recycle Bin icon, a local PNG/JPG/BMP/ICO/GIF, or a direct HTTPS image link.
-可使用 Windows 回收站图标、本地静态图片或 GIF 动图，也可填写 HTTPS 图片直链。
+Use the Windows Recycle Bin icon, a local PNG/JPG/BMP/ICO/GIF, or a user-selected HTTPS image URL loaded in the background.
+可使用 Windows 回收站图标、本地图片或 GIF 动图，也可后台加载 HTTPS 图片直链。
 
 ![Windows system icon](https://raw.githubusercontent.com/xandri19wang/drag-and-trash/main/demos/system-icon.gif)
 
 ## More / 其他功能
 
+- **Start Menu search / 开始菜单搜索:** Recycle real files and folders dragged from Everything & Power Tools in the Start Menu (local v1.2.1 only).
 - **Batch recycling / 批量回收:** Drop several files together in one Shell operation.
 - **Ctrl+Z undo / 撤销:** Restore a supported recycle operation in File Explorer (within the active Shell session).
-- **Lightweight / 轻量:** GIF playback runs only while dragging. HTTPS images are downloaded to local cache on configuration/reload, never during a drag.
+- **Lightweight / 轻量:** GIF playback runs only while dragging. HTTPS images load on a bounded background worker and are cached locally, never blocking dragging.
 
 ## Credits & license / 原作者与授权
 
